@@ -1,0 +1,147 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Add new product</value>
+  </data>
+  <data name="lblPicture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 22</value>
+  </data>
+  <data name="lblPicture.Text" xml:space="preserve">
+    <value>Picture:</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 22</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="btnUploadPicture.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        4wAAAOMBD+bfpwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAE/SURBVFhH7ZZh
+        SgMxEIX3lzdQ8SpWb1QR9BL2VKUX8I9CvYAeQ31P9sEwTTqTNFWEfvBBdzN5mc3u0p1OGM7gCn7Ar0G+
+        wyfI7BAWlkJGyOwQdsvi65+jMdxAZjI7RN2OJp27r/Ae8tmgdzzRwMEN3EKN0U/Irc1Sy92hVvgINSYf
+        YBbNCakV6kGS3IEFzFLL3WFfIe87n2S65IkGhjRQ4xI+z/J3iaM1cAFfoOa9wSvoSeemC8E5tIvLLfRN
+        aCzEF/IKS9vrr9zLMdYInQ/xhXaRV8jQaHHJGqFzIb5Qx5KhmcWl8MdVahN7FevZED/RhvXYjJ9ow3ps
+        xk+0YT2KzWyIn2jDehT+uEq6sJF0rj7JWv7rM6QbOOSj1L5mvN+lGmvxteSnM5vQTrQ4pIFjoUX/jFMD
+        vN+/es//E9P0DXiIQ5cTQfy6AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnUploadPicture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 139</value>
+  </data>
+  <data name="lblDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lblavailableQuantity.Text" xml:space="preserve">
+    <value>Available quantity:</value>
+  </data>
+  <data name="lblSalePrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="lblSalePrice.Text" xml:space="preserve">
+    <value>Sale price:</value>
+  </data>
+  <data name="lblProcurementPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="lblProcurementPrice.Text" xml:space="preserve">
+    <value>Procurement price:</value>
+  </data>
+  <data name="comboBoxCategory.Text" xml:space="preserve">
+    <value>Select category..</value>
+  </data>
+  <data name="btnAddArticle.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        cAAAAHABznhikwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABISURBVDhPYyAA
+        5gLxIgiTPHAciskGowYQacA8ID6DA3+BYmxyIDwHiBkWIwmgY0IGLARivIA+YYAPjBrAwDALiGdCmNgA
+        AwMAXgsuieULNg4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnAddArticle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 466</value>
+  </data>
+  <data name="btnAddArticle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 33</value>
+  </data>
+  <data name="btnAddArticle.Text" xml:space="preserve">
+    <value>Add product</value>
+  </data>
+  <data name="lblCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 22</value>
+  </data>
+  <data name="lblCode.Text" xml:space="preserve">
+    <value>Code:</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Category:</value>
+  </data>
+</root>

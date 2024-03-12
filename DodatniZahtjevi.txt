@@ -1,0 +1,2 @@
+Svi dodatni zahtjevi su urađeni: podrška za različite tipove korisnika, internacionalizacija(engleski i srpski jezik), podešavanja teme i stilova fonta, korisničko uputstvo.
+U korisničkom uputstvu se nalazi više detalja o navedenim zahtjevima. 

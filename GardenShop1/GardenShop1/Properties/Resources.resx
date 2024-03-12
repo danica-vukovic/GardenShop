@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="add" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="addProcurement" xml:space="preserve">
+    <value>Dodaj u nabavku</value>
+  </data>
+  <data name="addToBill" xml:space="preserve">
+    <value>Dodaj na račun</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Otkaži</value>
+  </data>
+  <data name="category" xml:space="preserve">
+    <value>Kategorija</value>
+  </data>
+  <data name="code" xml:space="preserve">
+    <value>Šifra</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>Potvrdi</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="enterQuantity" xml:space="preserve">
+    <value>Unesite količinu:</value>
+  </data>
+  <data name="enterUsernameAndPassword" xml:space="preserve">
+    <value>Unesite korisničko ime i lozinku.</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Greška</value>
+  </data>
+  <data name="errorMessage" xml:space="preserve">
+    <value>Došlo je do greške, pokušajte ponovo.</value>
+  </data>
+  <data name="existsProduct" xml:space="preserve">
+    <value>Postoji proizvod sa navedenom šifrom.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="eye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\eye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fillFields" xml:space="preserve">
+    <value>Molimo vas da popunite sva polja.</value>
+  </data>
+  <data name="firstname" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="hidden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\hidden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="idBill" xml:space="preserve">
+    <value>Broj računa</value>
+  </data>
+  <data name="idProcurement" xml:space="preserve">
+    <value>Broj nabavke</value>
+  </data>
+  <data name="incorrectCredentials" xml:space="preserve">
+    <value>Kredencijalni nisu ispravni.</value>
+  </data>
+  <data name="lastname" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="notActive" xml:space="preserve">
+    <value>Ovaj nalog je deaktiviran.</value>
+  </data>
+  <data name="phoneNumber" xml:space="preserve">
+    <value>Broj telefona</value>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>Cijena</value>
+  </data>
+  <data name="quantity" xml:space="preserve">
+    <value>Količina</value>
+  </data>
+  <data name="quantityEntry" xml:space="preserve">
+    <value>Unos količine</value>
+  </data>
+  <data name="remove" xml:space="preserve">
+    <value>Ukloni</value>
+  </data>
+  <data name="removeAccount" xml:space="preserve">
+    <value>Ukloni nalog</value>
+  </data>
+  <data name="removeAccountQuestion" xml:space="preserve">
+    <value>Jeste li sigurni da želite da uklonite odabrani nalog?</value>
+  </data>
+  <data name="removeArticle" xml:space="preserve">
+    <value>Ukloni proizvod</value>
+  </data>
+  <data name="removeArticleQuestion" xml:space="preserve">
+    <value>Da li ste sigurni da želite ukloniti proizvod?</value>
+  </data>
+  <data name="state" xml:space="preserve">
+    <value>Nema dovoljno proizvoda na stanju.</value>
+  </data>
+  <data name="successful" xml:space="preserve">
+    <value>Uspješno</value>
+  </data>
+  <data name="successfulCreate" xml:space="preserve">
+    <value>Kreiranje je uspješno izvršeno.</value>
+  </data>
+  <data name="successfulRemove" xml:space="preserve">
+    <value>Proizvod je uspešno uklonjen.</value>
+  </data>
+  <data name="successfulRemoveAccount" xml:space="preserve">
+    <value>Nalog je uspjesno uklonjen.</value>
+  </data>
+  <data name="successfulRmv" xml:space="preserve">
+    <value>Uspješno uklanjanje</value>
+  </data>
+  <data name="successfulUpd" xml:space="preserve">
+    <value>Uspešna izmena</value>
+  </data>
+  <data name="successfulUpdate" xml:space="preserve">
+    <value>Podaci su uspešno izmenjeni.</value>
+  </data>
+  <data name="takenUsername" xml:space="preserve">
+    <value>Navedeno korisničko ime je zauzeto.</value>
+  </data>
+  <data name="totalPrice" xml:space="preserve">
+    <value>Ukupna cijena</value>
+  </data>
+  <data name="tryAgain" xml:space="preserve">
+    <value>Pokušaj ponovo</value>
+  </data>
+  <data name="updateQuestion" xml:space="preserve">
+    <value>Jeste li sigurni da želite izmijeniti podatke?</value>
+  </data>
+  <data name="uploadPicture" xml:space="preserve">
+    <value>Nije moguće učitati sliku.</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Upozorenje</value>
+  </data>
+</root>
